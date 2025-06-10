@@ -91,7 +91,7 @@ Row {
                 anchors.horizontalCenter: parent.horizontalCenter
 
                 text: res.label1
-                font.pointSize: Appearance.font.size.extraLarge * res.primaryMult
+                font.pointSize: Appearance.font.size.large * res.primaryMult
             }
 
             StyledText {
@@ -131,7 +131,7 @@ Row {
             readonly property real centerX: width / 2
             readonly property real centerY: height / 2
 
-            readonly property real arc1Start: degToRad(45)
+            readonly property real arc1Start: degToRad(55)
             readonly property real arc1End: degToRad(220)
             readonly property real arc2Start: degToRad(230)
             readonly property real arc2End: degToRad(360)

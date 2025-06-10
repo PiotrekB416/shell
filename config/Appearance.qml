@@ -20,19 +20,19 @@ Singleton {
     }
 
     component Spacing: QtObject {
-        readonly property int small: 7
-        readonly property int smaller: 10
-        readonly property int normal: 12
-        readonly property int larger: 15
-        readonly property int large: 20
+        readonly property int small: 11
+        readonly property int smaller: 15
+        readonly property int normal: 18
+        readonly property int larger: 23
+        readonly property int large: 30
     }
 
     component Padding: QtObject {
-        readonly property int small: 5
-        readonly property int smaller: 7
-        readonly property int normal: 10
-        readonly property int larger: 12
-        readonly property int large: 15
+        readonly property int small: 8
+        readonly property int smaller: 10
+        readonly property int normal: 15
+        readonly property int larger: 18
+        readonly property int large: 23
     }
 
     component FontFamily: QtObject {
@@ -42,12 +42,12 @@ Singleton {
     }
 
     component FontSize: QtObject {
-        readonly property int small: 11
-        readonly property int smaller: 12
-        readonly property int normal: 13
-        readonly property int larger: 15
-        readonly property int large: 18
-        readonly property int extraLarge: 28
+        readonly property int small: 16
+        readonly property int smaller: 18
+        readonly property int normal: 19
+        readonly property int larger: 22
+        readonly property int large: 27
+        readonly property int extraLarge: 42
     }
 
     component Font: QtObject {
